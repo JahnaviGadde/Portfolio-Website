@@ -1,495 +1,422 @@
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<meta name="viewport" content="height=device-height">
-		<meta author="Revolt">
-		<meta description="YourName's Project Portfolio">
-		<meta keywords="Your, Name">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Your Name - Project Portfolio</title>
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<link href='http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Merriweather:300,400,700,400italic' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nitesh Kumar Shah">
+    <meta name="description" content="Nitesh Kumar Shah's Project Portfolio">
+    <meta name="keywords" content="Nitesh Kumar Shah, Portfolio, Projects, Publications">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Nitesh Kumar Shah - Project Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:300,400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
+    <style type="text/css">
+        .small-caps {
+            -ms-font-feature-settings: "smcp";
+            -moz-font-feature-settings: "smcp";
+            -webkit-font-feature-settings: "smcp";
+            font-feature-settings: "smcp";
+        }
 
-		<style type="text/css">
-			.small-caps {
-			    -ms-font-feature-settings: "smcp";
-			    -moz-font-feature-settings: "smcp";
-			    -webkit-font-feature-settings: "smcp";
-			    font-feature-settings: "smcp";
-			}
+        .text-figures { 
+            -moz-font-feature-settings: 'onum';
+            -ms-font-feature-settings: 'onum';
+            -webkit-font-feature-settings: 'onum';
+            font-feature-settings: 'onum';
+        }
 
-			.text-figures { 
-			    -moz-font-feature-settings: 'onum';
-			    -ms-font-feature-settings: 'onum';
-			    -webkit-font-feature-settings: 'onum';
-			    font-feature-settings: 'onum';
-			}
+        body{
+            font-family: 'Merriweather', Georgia, serif;
+            margin: 0;
+            padding: 0;                
+        }
+        h1, h2, h3, h4, h5, h6{
+            font-family: 'Open Sans', sans-serif;
+        }
+        h1{
+            font-size: 48px;
+        }
+        h3{
+            font-size: 24px;
+        }
+        h6{
+            font-size: 22px;
+            font-weight: 300;
+            color: #FFF;
+        }
+        p, .item{
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 1.75;
+        }
+        a{
+            color: #000;
+        }
+        
+        .id_tags{
+            padding: 2px 4px;
+            font-size: 90%;
+            color: rgb(255, 255, 255);
+            background-color: #92898c;
+            border-radius: 4px;
+        }
+        .logo{
+            display: inline-block;
+            position: fixed;
+            left: 10px;
+            top: 10px;
+            z-index: 1000;
+            width: 44px;
+            height: 44px;
+            background: #000;
+            color: #FFF;
+            font-size: 24px;
+            font-weight: 700;
+            text-decoration: none;
+            text-align: center;
+        }
+        .logo:hover{
+            background: #444;
+        }
+        .logo-initial{
+            position: relative;
+            top: 8px;
+        }
+        .special-menu{
+            display: inline-block;
+            position: fixed;
+            left: 3%;
+            bottom: 5%;
+            z-index: 0;
+        }
+        .special-link{
+            border: 1px solid #888;
+            font-style: italic;
+            text-decoration: none;
+            padding: 5px 20px;
+            display: block;
+            font-family: 'Merriweather', serif;
+            text-align: center;
+            font-size: 14px;
+            border-radius: 3px;
+            margin-bottom: 5px;                
+        }
+        .scroll-menu{
+            display: inline-block;
+            position: fixed;
+            left: 3%;
+            top: 22%;
+            z-index: 0;
+        }
+        .scroll-menu .scroll-links{ 
+            font-family: 'Open Sans', sans-serif;
+            display: block;
+            text-decoration: none;
+            padding: 10px 0px;
+            font-size: 12px;
+            color: #000;
+            text-align: center;
+            border-bottom: 1px solid #CCC;
+            text-transform: uppercase;
+        }
+        .scroll-menu .scroll-links.last-link{
+            border-bottom: none;
+        }
+        .full-page{
+            width: 100%;
+            height: 100%;
+            z-index: 100;
+            background-color: #FFF;
+            position: relative;
+        }
 
-			body{
-				font-family: 'Merriweather', Georgia, serif;
-				margin: 0;
-				padding: 0;				
-			}
-			h1, h2, h3, h4, h5, h6{
-				font-family: 'Open Sans', sans-serif;
-			}
-			h1{
-				font-size: 48px;
-			}
-			h3{
-				font-size: 24px;
-			}
-			h6{
-				font-size: 22px;
-				font-weight: 300;
-				color: #FFF;
-			}
-			p, .item{
-				font-size: 18px;
-				font-weight: 300;
-				line-height: 1.75;
-			}
-			a{
-				color: #000;
-			}
-			
-			
-			.id_tags{
-				padding: 2px 4px;
-				font-size: 90%;
-				color: rgb(255, 255, 255);
-				background-color: #92898c;
-				border-radius: 4px;
-			}
-			.logo{
-				display: inline-block;
-				position: fixed;
-				left: 10px;
-				top: 10px;
-				z-index: 1000;
-				width: 44px;
-				height: 44px;
-				background: #000;
-				color: #FFF;
-				font-size: 24px;
-				font-weight: 700;
-				text-decoration: none;
-				text-align: center;
-			}
-			.logo:hover{
-				background: #444;
-			}
-			.logo-initial{
-				position: relative;
-				top: 8px;
-			}
-			.special-menu{
-				display: inline-block;
-				position: fixed;
-				left: 3%;
-				bottom: 5%;
-				z-index: 0;
-			}
-			.special-link{
-				border: 1px solid #888;
-				font-style: italic;
-				text-decoration: none;
-				padding: 5px 20px;
-				display: block;
-				font-family: 'Merriweather', serif;
-				text-align: center;
-				font-size: 14px;
-				border-radius: 3px;
-				margin-bottom: 5px;				
-			}
-			.scroll-menu{
-				display: inline-block;
-				position: fixed;
-				left: 3%;
-				top: 22%;
-				z-index: 0;
-			}
-			.scroll-menu .scroll-links{ 
-				font-family: 'Open Sans', sans-serif;
-				display: block;
-				text-decoration: none;
-				padding: 10px 0px;
-				font-size: 12px;
-				color: #000;
-				text-align: center;
-				border-bottom: 1px solid #CCC;
-				text-transform: uppercase;
-			}
-			.scroll-menu .scroll-links.last-link{
-				border-bottom: none;
-			}
-			.full-page{
-				width: 100%;
-				height: 100%;
-				z-index: 100;
-				background-color: #FFF;
-				position: relative;
-			}
+        .full-page h1, .full-page h6, .full-page a{
+            font-family: Caflisch Script Pro, cursive;
+        }
 
-			.full-page h1, .full-page h6, .full-page a{
-				font-family: Caflisch Script Pro, cursive;
-			}
+        .full-page a{
+            text-decoration: none;
+            color: #4B0082;
+        }
 
-			.full-page a{
-				text-decoration: none;
-				color: #4B0082;
-			}
+        .full-page h1, .full-page h6{
+            margin: 0px;
+        }
 
-			.full-page h1, .full-page h6{
-				margin: 0px;
-			}
+        .full-page h1{
+            font-size: 3em;
+            line-height: 1.2em;
+        }
 
-			.full-page h1{
-				font-size: 3em;
-				line-height: 1.2em;
-			}
+        .full-page h6{
+            font-size: 1em;
+            color: #666;
+        }
+        .uppercase{
+            text-transform: uppercase;
+        }
 
-			.full-page h6{
-				font-size: 1em;
-				color: #666;
-			}
-			.uppercase{
-				text-transform: uppercase;
-			}
+        .left{
+            width: 50%;
+            height: 100%;
+            display: inline-block;
+            float: left;
+            text-align: center;
+        }
 
-			.left{
-				width: 50%;
-				height: 100%;
-				display: inline-block;
-				float: left;
-				text-align: center;
-			}
+        .left.black{
+            background: #000;
+            color: #FFF;
+        }
 
-			.left.black{
-				background: #000;
-				color: #FFF;
-			}
+        .wrapper .container{
+            display: table;
+            width: 100%;
+            height: 100%;
+        }
 
-			.wrapper .container{
-				display: table;
-	   			width: 100%;
-	   			height: 100%;
-			}
+        .wrapper .container .dummy{
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            padding: 0px 10%;
+        }
+        .full-page a.button{
+            text-decoration: none;
+            width: 200px;
+            padding: 10px 0px;
+            margin: 10px 0px;
+            border: 1px solid;
+            display: inline-block;
+            text-transform: uppercase;
+        }
 
-			.wrapper .container .dummy{
-				display: table-cell;
-				text-align: center;
-				vertical-align: middle;
-				padding: 0px 10%;
-			}
-			.full-page a.button{
-				text-decoration: none;
-				width: 200px;
-				padding: 10px 0px;
-				margin: 10px 0px;
-				border: 1px solid;
-				display: inline-block;
-				text-transform: uppercase;
-			}
+        .full-page a.button.white{
+            color: #FFF;
+        }
 
-			.full-page a.button.white{
-				color: #FFF;
-			}
+        .full-page a.button.white:hover{
+            background: #222;
+        }
+        .content{
+            width: 65%;
+            margin: 150px auto;
+        }
+        .item{
+            margin-bottom: 30px;
+        }
+        .item .college-name, .item .skill-type{
+            font-weight: 400;
+        }
+        .item .year-address, .item .skills{
+            color: #444;
+        }
+        .grid-collection .item{
+            margin-bottom: 0px;
+            padding: 20px 0px;
+            border-bottom: 1px solid grey;
+        }
+        .grid-item{
+            position: relative;
+            margin-bottom: 50px;
+        }
+        .grid-item .content-wrapper{
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.4);
+            opacity: 0;
+            transition: opacity .3s ease-out;
+            -moz-transition: opacity .3s ease-out;
+            -webkit-transition: opacity .3s ease-out;
+            -o-transition: opacity .3s ease-out;
+            text-align: center;
+        }
+        .grid-item:hover .content-wrapper{
+            opacity: 1;
+        }
+        .grid-item .content-wrapper .button{
+            background: #FFF;
+            padding: 10px 25px;
+            color: #000;
+            text-decoration: none;
+            font-family: 'Open Sans', sans-serif;
+            border-radius: 4px;
+            position: relative;
+            top: -40px;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+        .grid-item:hover .content-wrapper .button{
+            top: 50%;
+        }
+        .contacts a{
+            margin-right: 10px;
+        }
+        a.email{
+            text-decoration: none;
+        }
+        .brief{
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .item .link{
+            margin-top: 5px;
+        }
 
-			.full-page a.button.white:hover{
-				background: #222;
-			}
-			.content{
-				width: 65%;
-				margin: 150px auto;
-			}
-			.item{
-				margin-bottom: 30px;
-			}
-			.item .college-name, .item .skill-type{
-				font-weight: 400;
-			}
-			.item .year-address, .item .skills{
-				color: #444;
-			}
-			.grid-collection .item{
-				margin-bottom: 0px;
-				padding: 20px 0px;
-				border-bottom: 1px solid grey;
-			}
-			.grid-item{
-				position: relative;
-				margin-bottom: 50px;
-			}
-			.grid-item .content-wrapper{
-				position: absolute;
-				top: 0px;
-				width: 100%;
-				height: 100%;
-				background: rgba(0,0,0,0.4);
-				opacity: 0;
-				transition: opacity .3s ease-out;
-			    -moz-transition: opacity .3s ease-out;
-			    -webkit-transition: opacity .3s ease-out;
-			    -o-transition: opacity .3s ease-out;
-			    text-align: center;
-			}
-			.grid-item:hover .content-wrapper{
-				opacity: 1;
-			}
-			.grid-item .content-wrapper .button{
-				background: #FFF;
-				padding: 10px 25px;
-				color: #000;
-				text-decoration: none;
-				font-family: 'Open Sans', sans-serif;
-				border-radius: 4px;
-				position: relative;
-				top: -40px;
-				-webkit-transition: all 0.3s ease-out;
-				-moz-transition: all 0.3s ease-out;
-				-o-transition: all 0.3s ease-out;
-				-ms-transition: all 0.3s ease-out;
-				transition: all 0.3s ease-out;
-			}
-			.grid-item:hover .content-wrapper .button{
-				top: 50%;
-			}
-			.contacts a{
-				margin-right: 10px;
-			}
-			a.email{
-				text-decoration: none;
-			}
-			.brief{
-				font-size: 14px;
-				margin-top: 5px;
-			}
-			.item .link{
-				margin-top: 5px;
-			}
+        .project-title{
+            font-weight: 800;
+            font-size: 18px;
+        }
+        .project-description{
+            margin-top: 10px;
+            color: #444;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        .project-links{
+            font-size: 14px;
+            font-weight: 800;
+            margin-top: 10px;
+        }
+        .img-circle {
+            border-radius: 50%;
+        }
+        /* Small Screens ----------- */
+        @media only screen and (max-width: 767px){
+            .special-menu .special-link{
+                font-size: 12px;
+                padding: 5px;
+            }
+            .scroll-menu{
+                display: none;
+            }
+            .left{
+                width: 100%;
+                height: 50%;
+            }
+            .wrapper .container .dummy{
+                padding: 0;
+            }
+        }
+        @media only screen and (max-height: 480px){
+            .scroll-menu{
+                display: none;
+            }
+            .left{
+                height: auto;
+            }
+        }
+    </style>
+</head>
 
-			.project-title{
-				font-weight: 800;
-				font-size: 18px;
-			}
-			.project-description{
-				    margin-top: 10px;
-				    color: #444;
-				    font-size: 14px;
-				    font-weight: 300;
-			}
-			.project-links{
-				font-size: 14px;
-				font-weight: 800;
-				margin-top: 10px;
-			}
-			.img-circle {
-				border-radius: 50%;
-			}
-			/* Small Screens ----------- */
-			@media only screen and (max-width: 767px){
-				.special-menu .special-link{
-					font-size: 12px;
-					padding: 5px;
-				}
-				.scroll-menu{
-					display: none;
-				}
-				.left{
-					width: 100%;
-					height: 50%;
-				}
-				.wrapper .container .dummy{
-					padding: 0;
-				}
-			}
-			@media only screen and (max-height: 480px){
-				.scroll-menu{
-					display: none;
-				}
-				.left{
-					height: auto;
-				}
-			}
-		</style>
-	</head>
+<body>
+    <a href="./index.html" class="logo" title="Home"><span class="logo-initial">NK</span></a>
+    <div class="special-menu">
+        <a href="#top" class="scroll-links special-link">Top</a>
+    </div>
+    <div class="scroll-menu">
+        <a href="#about" class="scroll-links">About</a>
+        <a href="#publications" class="scroll-links">Publications</a>
+        <a href="#projects" class="scroll-links">Projects</a>
+        <a href="#skills" class="scroll-links">Skills</a>
+        <a href="#contact" class="scroll-links last-link">Contact</a>
+    </div>
 
-	<body>
-		<!--TODO: change the logo initial from TT to your initials-->
-		<a href="./index.html" class="logo" title="Home"><span class="logo-initial">MJ</span></a>
-		<div class="special-menu">
-			<a href="#top" class="scroll-links special-link">Top</a>
-		</div>
-		<div class="scroll-menu">
-			<a href="#about" class="scroll-links">About</a>
-			<a href="#publications" class="scroll-links">Publications</a>
-			<a href="#projects" class="scroll-links">Projects</a>
-			<a href="#skills" class="scroll-links">Skills</a>
-			<a href="#contact" class="scroll-links last-link">Contact</a>
-		</div>
+    <section class="full-page" id="top">
+        <section class="left white wrapper">
+            <div class="container">
+                <div class="dummy">
+                    <h1 class="uppercase">Nitesh Kumar Shah</h1>
+                    <h6 class="uppercase">Data Science Intern, Tech Mahindra</h6>
+                </div>
+            </div>
+        </section>
+        <section class="left black wrapper">
+            <div class="container">
+                <div class="dummy">
+                    <img class="img-circle" src="images/me.png" alt="Nitesh Kumar Shah">
+                    <div><a href="#portfolio" class="button white scroll-links" title="Academics & work experiences">Explore My Work</a></div>
+                </div>
+            </div>
+        </section>
+        <div style="clear: both;"></div>
+    </section>
 
-		<section class="full-page" id="top">
-			<section class="left white wrapper">
-				<div class="container">
-					<div class="dummy">
-						<h1 class="uppercase">Your Name</h1>
-						<h6 class="uppercase">Your job description</h6>
-					</div>
-				</div>
-			</section>
-			<section class="left black wrapper">
-				<div class="container">
-					<div class="dummy">
-						<img class="img-circle" src="images/me.png">
-						<div><a href="#portfolio" class="button white scroll-links" title="Academics & work experiences">Explore My Work</a></div>
-					</div>
-				</div>
-			</section>
-			<div style="clear: both;"></div>
-		</section>
+    <section class="content" id="portfolio">
 
-		<section class="content" id="portfolio">
-		
-<!----------------------------------------------------ABOUT-ME START--------------------------------------------------------------------------------------->
-			<h1 class="heading" id="about" name="about">About me</h1>
-			<p>
-				Interested in "XYZ" and "PQR". Experienced in alpha, beta, gamma. I work at X as Y. Before joining X, I was pursuing Z degree at ABC University</a> under the guidance of Dr. Random Advisor. I have mostly worked in the areas of blah, blah, blah. Before joining Z degree, I worked at this useless tech giant company as a Systems Engineer for over a year. Apart from blah blah, I love working on X kind of problems. I also love doing _ in my free time.
-			</p>
-<!----------------------------------------------------ABOUT-ME END--------------------------------------------------------------------------------------->
+        <h1 class="heading" id="about" name="about">About me</h1>
+        <p>
+            Interested in autonomous driving, surveillance, and industrial inspection. Experienced in Python, TensorFlow, and GANs, with a focus on unpaired image-to-image translation and security in Bluetooth communication. Currently pursuing a B.Tech in Information Technology at IIIT Allahabad. I have worked as a Data Science Intern at Tech Mahindra and completed a fellowship at C3iHub, IIT-Kanpur.
+        </p>
 
-<!----------------------------------------------------EDUCATION START--------------------------------------------------------------------------------------->				
-			<h1 class="heading" id="education" name="education">Education</h1>
-			
-			<section class="grid-collection">
-				
-				<div class="item">
-					<div class="project-title">Degree X</div>
-					<div class="paper-detail"><b>School/College:</b> ABC college of engineering</div>
-					<div class="paper-detail"><b>CGPA:</b> 8.0</div>
-					<div class="paper-detail"><b>Duration:</b> 2011-2013</div>
-				</div>
-				
-				<div class="item">
-					<div class="project-title">Degree X</div>
-					<div class="paper-detail"><b>School/College:</b> ABC college of engineering</div>
-					<div class="paper-detail"><b>CGPA:</b> 8.0</div>
-					<div class="paper-detail"><b>Duration:</b> 2011-2013</div>
-				</div>
-				
-				<div class="item">
-					<div class="project-title">Degree X</div>
-					<div class="paper-detail"><b>School/College:</b> ABC college of engineering</div>
-					<div class="paper-detail"><b>CGPA:</b> 8.0</div>
-					<div class="paper-detail"><b>Duration:</b> 2011-2013</div>
-				</div>
+        <h1 class="heading" id="education" name="education">Education</h1>
+        <section class="grid-collection">
+            <div class="item">
+                <div class="project-title">B.Tech in Information Technology - Business Informatics</div>
+                <div class="paper-detail"><b>School/College:</b> Indian Institute of Information Technology, Allahabad</div>
+                <div class="paper-detail"><b>CGPA:</b> 8.01/10</div>
+                <div class="paper-detail"><b>Duration:</b> June 2021 - Ongoing</div>
+            </div>
+        </section>
 
+        <h1 class="heading" id="publications" name="publications">Publications</h1>
+        <div class="item">
+            <div class="paper-detail"><i>[Published] </i><span class="authors">S. Pandey, Dr. Ranjit Singh, Nitesh Kr. Shah, </span><span class="paper-title"><b>Enhancement of Stock Market Strategies with Sentiment Analysis and Stress Indices: A Decade of Insights from HuffPost Data via FinBERT,</b> </span><span class="workshop-details">Best Paper Award: International Conference of Behavioural Finance’24</span></div>
+            <div class="link">
+                <a href="http://ieeexplore.ieee.org/document/7975281/" target="_blank">IEEE Explore Link</a>;
+            </div>
+        </div>
 
-			</section>
-<!----------------------------------------------------EDUCATION END--------------------------------------------------------------------------------------->	
-			
-<!----------------------------------------------------PUBLICATION START--------------------------------------------------------------------------------------->			
-			<h1 class="heading" id="publications" name="publications">Publications</h1>
-	        
-			<!--Paper 1: START-->
-			<div class="item">
-	        	<div class="paper-detail"><i>[Publlished] </i><span class="authors">Author1 Name, Author2 Name, Author3 Name, </span><span class="paper-title"><b>Complete Name of Paper 1,</b> </span><span class="workshop-details"> to <b>Conference 1 Acronym</b> (Conference 1 Full Name)</span></div>
-	        	<div class="link">
-	        		<a href="http://ieeexplore.ieee.org/document/7975281/" target="_blank">IEEE Explore Link</a>;
-	        	</div>
-	        </div>
-			<!--Paper 1: END-->
-			
-			<!--Paper 2: START-->
-			<div class="item">
-	        	<div class="paper-detail"><i>[Submitted] </i><span class="authors">Author1 Name, Author2 Name, Author3 Name, </span><span class="paper-title"><b>Complete Name of Paper 1,</b> </span><span class="workshop-details"> to <b>Conference 2 Acronym</b> (Conference 2 Full Name)</span></div>
-	        	<div class="link">
-	        		<a href="http://ieeexplore.ieee.org/document/7975281/" target="_blank">IEEE Explore Link</a>;
-	        	</div>
-	        </div>
-			<!--Paper 2: END-->
-			
-			<!--Paper 3: START-->
-	        <div class="item">
-	        	<div class="paper-detail"><i>[Submitted] </i><span class="authors">Author1 Name, Author2 Name, Author3 Name, </span><span class="paper-title"><b>Complete Name of Paper 1,</b> </span><span class="workshop-details"> to <b>Conference 3 Acronym</b> (Conference 3 Full Name)</span></div>
-	        	<div class="link">
-	        		<a href="http://ieeexplore.ieee.org/document/7975281/" target="_blank">IEEE Explore Link</a>;
-	        	</div>
-	        </div>
-			<!--Paper 3: END-->
-			
-			<!--Paper 4: START-->
-			<div class="item">
-	        	<div class="paper-detail"><i>[Publlished] </i><span class="authors">Author1 Name, Author2 Name, Author3 Name, </span><span class="paper-title"><b>Complete Name of Paper 1,</b> </span><span class="workshop-details"> to <b>Conference 4 Acronym</b> (Conference 4 Full Name)</span></div>
-	        	<div class="link">
-	        		<a href="http://ieeexplore.ieee.org/document/7975281/" target="_blank">IEEE Explore Link</a>;
-	        	</div>
-	        </div>
-			<!--Paper 4: END-->
+        <h1 class="heading" id="projects" name="projectsml">Projects</h1>
+        <section class="grid-collection">
 
-<!----------------------------------------------------PUBLICATION END--------------------------------------------------------------------------------------->	
+            <div class="item">
+                <div class="project-title">Indian Army Project | Human-Following Bot | Software Side</div>
+                <div><code class="id_tags">YOLO v7</code> <code class="id_tags">Object Detection</code> <code class="id_tags">GANs</code></div>
+                <div class="project-description">Utilized GANs for data augmentation to create a diverse dataset for training the YOLO v7 model, enhancing its accuracy and robustness. Implemented YOLO v7 for real-time object detection with high accuracy and speed, achieving 56.8% AP at 30 FPS.</div>
+                <div class="project-links">
+                    <a href="https://github.com/rbhdsks/INDIANARMYPROJECT--TinyYolo" target="_blank">Code</a>
+                </div>
+            </div>
 
-<!----------------------------------------------------PROJECTS START---------------------------------------------------------------------------------------->	
+            <div class="item">
+                <div class="project-title">CollabCam - Online Interview Platform</div>
+                <div><code class="id_tags">NodeJS</code> <code class="id_tags">ReactJS</code></div>
+                <div class="project-description">Developed a full-stack project for online interviews with P2P connection, enabling seamless and efficient interaction between interviewers and interviewees.</div>
+                <div class="project-links">
+                    <a href="https://github.com/rbhdsks/Collabcam" target="_blank">Code</a>
+                </div>
+            </div>
 
-			<h1 class="heading" id="projects" name="projectsml">Projects</h1>
-			<section class="grid-collection">
-				
-				<!--Project 1: START-->
-				<div class="item">
-					<div class="project-title">Use Deep Learning to Clone Driving Behavior</div>
-					<div><code class="id_tags">Python</code> <code class="id_tags">Computer Vision</code> <code class="id_tags">Deep Learning</code></div>
-					
-					<div class="project-description">Built and trained a convolutional neural network for end-to-end driving in a simulator,using TensorFlow and Keras. Used optimization techniques such as regularization and dropout to generalize the network for driving on multiple tracks. </div>
-					<div class="project-links">
-						<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/blob/master/CarND-Behavioral-Cloning-P3/writeup_template.md" target="_blank">Report</a>; 
-						<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/tree/master/CarND-Behavioral-Cloning-P3" target="_blank">Code</a>
-					</div>
-				</div>
-				<!--Project 1: END-->
-				
-				<!--Project 2: START-->
-				<div class="item">
-					<div class="project-title">Vehicle Detection and Tracking</div>
-					<div><code class="id_tags">Python</code> <code class="id_tags">Computer Vision</code> <code class="id_tags">Deep Learning</code></div>
-					
-					<div class="project-description">Created a vehicle detection and tracking pipeline with OpenCV, histogram of oriented gradients (HOG), and support vector machines (SVM). Optimized and evaluated the model on video data from a automotive camera taken during highway driving. </div>
-					<div class="project-links">
-						<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/blob/master/CarND-Vehicle-Detection-P5/writeup.md" target="_blank">Report</a>; 
-						<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/tree/master/CarND-Vehicle-Detection-P5" target="_blank">Code</a>
-					</div>
-				</div>
-				<!--Project 2: END-->
+        </section>
 
-			</section>
-<!----------------------------------------------------PROJECTS END---------------------------------------------------------------------------------------->				
+        <h1 class="heading" id="skills" name="skills">Skills</h1>
+        <div class="item">
+            <div class="paper-detail"><b>Programming Languages and Libraries:</b> Python, C++, SQL, HTML/CSS, JavaScript, ReactJS</div>
+            <div class="paper-detail"><b>Tools & Fundamentals:</b> Git, Linux, Shell (Bash/Zsh)</div>
+        </div>
 
-<!----------------------------------------------------SKILLS START---------------------------------------------------------------------------------------->				
-			<h1 class="heading" id="skills" name="skills">Skills</h1>
-			<div class="item">
-					<div class="paper-detail"><b>Category 1:</b> alpha, beta, gamma</div>
-					<div class="paper-detail"><b>Category 2:</b> alpha, beta, gamma</div>
-					<div class="paper-detail"><b>Category 3:</b> alpha, beta, gamma</div>
-				</div>
-
-<!----------------------------------------------------SKILLS END---------------------------------------------------------------------------------------->			
-
-			<h1 class="heading" id="contact" name="contact">Contact</h1>
-			<p class="contacts">
-				<div>
-					<a href="mailto:xyx@gmail.com">Email me</a>
-					<a href="githuburl" target="_blank">Github</a>
-					<a href="linkedinurl" target="_blank">LinkedIn</a>
-				</div>
-			</p>
-		</section>
-	</body>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="./assets/thirdparty/scrollTo.min.js"></script>
-	<script>
-		$('.scroll-links').scrollTo();
-	</script>
+        <h1 class="heading" id="contact" name="contact">Contact</h1>
+        <p class="contacts">
+            <div>
+                <a href="mailto:sirali.nitesh@gmail.com">Email me</a>
+                <a href="https://github.com/rbhdsks" target="_blank">Github</a>
+                <a href="https://linkedin.com/in/niteshkumarshah/" target="_blank">LinkedIn</a>
+            </div>
+        </p>
+    </section>
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="./assets/thirdparty/scrollTo.min.js"></script>
+<script>
+    $('.scroll-links').scrollTo();
+</script>
 </html>
