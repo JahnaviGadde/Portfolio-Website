@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
+
+.me-auto {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.nav-link {
+    font-family: 'Monsterrat', sans-serif;
+}
+
+Nav button{
+    border: none;
+    background-color: #B9D9EB;
+    color: #002244;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Asap', sans-serif;
+    color:#B9D9EB;
+}
+
+.navbar {
+    border: none;
+    margin: 3vm;
+}
+
+.color-nav {
+    width: 100%;
+    background-color: #002244;
+}
+
+.navbar-brand:hover {
+    color: #B9D9EB;
+}
+
+.home {
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #d1eaf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profilepic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 15px 0 5px;
+    color: #002244;
+  }
+  
+  .profile-title {
+    font-size: 1em;
+    color: #002244;
+    margin-bottom: 5px;
+  }
+  
+  .profile-institution {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+  }
+  
+  .country-code {
+    font-weight: bold;
+    font-size: 0.8em;
+    color: blue;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #0073b1; /* LinkedIn color for example */
+  }
+
+  .about-me {
+    font-family: 'Arial', sans-serif;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.6;
+  }
+  
+   
